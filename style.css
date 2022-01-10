@@ -40,6 +40,10 @@ nav a{
     white-space: nowrap;
 }
 
+nav a:hover{
+    color: #4c040c;
+}
+
 nav img{
     width: 15em;  
     
@@ -68,7 +72,7 @@ nav img{
 }
 
 .main-container img{
-    opacity: 80%;
+    opacity: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -132,15 +136,16 @@ nav img{
     margin: auto;
 }
 .contact-container h2{
+
     font-size: 5em;
     text-decoration: underline;
-    padding-left: 0.5em; 
+    
     text-align: center;
 }
 .contact-container-inner{
     background-color: #4c040c;
     height: 28em;
-    width: 70em;
+    width: 70%;
     margin: auto;
 }
 
@@ -150,6 +155,10 @@ form{
     display: flex;
     flex-direction: column;
     align-content: flex-start;
+}
+
+form button:hover{
+    color: #4c040c;
 }
 
 form label{
