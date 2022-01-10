@@ -48,9 +48,12 @@ nav img{
     width: 15em;  
     
 }
-
+a{
+    color: #4c040c;
+}
 /* css code that has to do with main */
 .main-container{
+    padding-top: 5em;
     display: block;
     position: relative;
     min-width: 100%;
@@ -68,7 +71,7 @@ nav img{
 .main-container h2{
     color: white;
     opacity: 70%;
-    font-size: 5em;
+    font-size:500%;
 }
 
 .main-container img{
@@ -90,20 +93,59 @@ nav img{
     
 }
 
-.work-boxes{
+.work-siding{
     background-color: black;
     border-radius: 25px;
     height: 17em;
     width: 22em;
     text-align: center;
+    background-image: url(img/siding.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
-.work-boxes h2{
-    align-items: center;
+.work-roofing{
+    background-color: black;
+    border-radius: 25px;
+    height: 17em;
+    width: 22em;
+    text-align: center;
+    background-image: url(img/roof.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.work-gutters {
+    background-color: black;
+    border-radius: 25px;
+    height: 17em;
+    width: 22em;
+    text-align: center;
+    background-image: url(img/gutter.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.work-siding h2{
     color: white;
-    font-size: 4em;
+    font-size: 3em;
+    opacity: 70%;
+    padding-top: 1.3em;
 }
 
+.work-roofing h2{
+    color: white;
+    font-size: 3em;
+    opacity: 70%;
+    padding-top: 1.3em;
+}
+
+.work-gutters h2{
+    color: white;
+    font-size: 3em;
+    opacity: 70%;
+    padding-top: 1.3em;
+}
 .storm-container{
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/Storm.jpg');
     background-size: cover;
@@ -117,10 +159,10 @@ nav img{
 .storm-container h1{
     color: white;
     opacity: 70%;
-    font-size: 10em;
+    font-size: 6em;
 }
 
-.storm-container p{
+.storm-container li{
     color: white;
     opacity: 70%;
     font-size: 3em;
